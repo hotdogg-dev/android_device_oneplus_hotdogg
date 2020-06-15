@@ -52,7 +52,9 @@ vendor/lib64/libgf_ud_hal.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
 # Qualcomm MDM Interface
+vendor/bin/ks
 vendor/bin/mdm_helper
+vendor/bin/mdm_helper_proxy
 vendor/bin/oemnvbkdaemon
 vendor/bin/init.mdm.sh
 vendor/lib/libmdmdetect.so
