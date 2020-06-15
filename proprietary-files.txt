@@ -50,6 +50,16 @@ vendor/lib64/fp_hal_extension.so
 vendor/lib64/libgf_ud_hal.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
+# Qualcomm MDM Interface
+vendor/bin/mdm_helper
+vendor/bin/oemnvbkdaemon
+vendor/bin/init.mdm.sh
+vendor/lib/libmdmdetect.so
+vendor/lib/liboemnvbk_img_helper.so
+vendor/lib64/libmdmdetect.so
+vendor/lib64/liboemnvbk_img_helper.so
+vendor/lib64/libmdmimgload.so
+
 # Sensors
 vendor/etc/sensors/config/ak991x_polling_0.json
 vendor/etc/sensors/config/ak991x_0.json
