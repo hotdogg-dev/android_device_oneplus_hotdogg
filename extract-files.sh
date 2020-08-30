@@ -31,3 +31,9 @@ export VENDOR=oneplus
 export DEVICE_BRINGUP_YEAR=2020
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
+
+LIBGF_UD_HAL="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/vendor/lib/libgf_ud_hal.so
+LIB64GF_UD_HAL="$LINEAGE_ROOT"/vendor/"$VENDOR"/"$DEVICE"/proprietary/vendor/lib64/libgf_ud_hal.so
+
+sed -i "s|vendor.boot.verifiedbootstate|vendor.boot.fingerprintbstate|g" "$LIBGF_UD_HAL"
+sed -i "s|vendor.boot.verifiedbootstate|vendor.boot.fingerprintbstate|g" "$LIB64GF_UD_HAL"
