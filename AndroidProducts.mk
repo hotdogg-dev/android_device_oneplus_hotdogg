@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_hotdog.mk
+    $(LOCAL_DIR)/carbon_hotdogg.mk

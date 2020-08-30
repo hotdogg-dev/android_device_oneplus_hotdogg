@@ -9,7 +9,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit from hotdog device
-$(call inherit-product, device/oneplus/hotdog/device.mk)
+$(call inherit-product, device/oneplus/hotdogg/device.mk)
 
 # Inherit Carbon GSM telephony parts
 $(call inherit-product, vendor/carbon/config/gsm.mk)
@@ -18,10 +18,10 @@ $(call inherit-product, vendor/carbon/config/gsm.mk)
 $(call inherit-product, vendor/carbon/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := carbon_hotdog
-PRODUCT_DEVICE := hotdog
+PRODUCT_NAME := carbon_hotdogg
+PRODUCT_DEVICE := hotdogg
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := OnePlus 7T Pro
+PRODUCT_MODEL := HD1925
 PRODUCT_MANUFACTURER := OnePlus
 
 PRODUCT_AAPT_CONFIG := xxxhdpi
