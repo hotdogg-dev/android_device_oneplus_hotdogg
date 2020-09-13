@@ -9,6 +9,9 @@ $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/hotdogg/hotdogg-vendor.mk)
 
+# Dalvik-Config
+$(call inherit-product, frameworks/native/build/phone-xhdpi-12288-dalvik-heap.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
