@@ -369,4 +369,7 @@
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_supportSmartPixels">true</bool>
+
+    <!-- Defines custom OEM sensor for pocket detection. -->
+    <string name="config_pocketJudgeVendorSensorName">oneplus.sensor.pocket</string>
 </resources>
