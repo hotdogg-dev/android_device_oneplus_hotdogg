@@ -30,4 +30,15 @@
 
     <!-- Margin on the left side of the carrier text on Keyguard -->
     <dimen name="keyguard_carrier_text_margin">95px</dimen>
+
+    <!-- Tri-state UI -->
+    <dimen name="tri_state_down_dialog_position">850.0px</dimen>
+    <dimen name="tri_state_down_dialog_position_l">650.0px</dimen>
+    <dimen name="tri_state_middle_dialog_position">650.0px</dimen>
+    <dimen name="tri_state_middle_dialog_position_l">650.0px</dimen>
+    <dimen name="tri_state_up_dialog_position">450.0px</dimen>
+    <dimen name="tri_state_up_dialog_position_l">650.0px</dimen>
+    <dimen name="tri_state_up_dialog_position_deep">21.0px</dimen>
+    <dimen name="tri_state_up_dialog_position_deep_land">21.0px</dimen>
+
 </resources>
