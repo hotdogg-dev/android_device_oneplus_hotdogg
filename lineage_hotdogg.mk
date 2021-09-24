@@ -11,6 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hotdogg device
 $(call inherit-product, device/oneplus/hotdogg/device.mk)
 
+# Inherit from Oneplus Camera
+$(call inherit-product, vendor/oneplus/apps/hotdogg/config.mk)
+
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
