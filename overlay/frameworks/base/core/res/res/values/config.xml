@@ -271,4 +271,7 @@
     
     <!-- Enable face auth only when swiping security view -->
     <bool name="config_faceAuthOnlyOnSecurityView">true</bool>
+
+    <!-- Default fod pressed color -->
+    <integer name="config_fod_pressed_color">4</integer>
 </resources>
