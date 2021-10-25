@@ -31,6 +31,9 @@ PRODUCT_PACKAGES += \
     vendor.lineage.camera.motor@1.0-service.oneplus_msmnile \
     OnePlusCameraHelper
 
+# Dalvik
+$(call inherit-product, frameworks/native/build/phone-xhdpi-12288-dalvik-heap.mk)
+
 # Device init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom
