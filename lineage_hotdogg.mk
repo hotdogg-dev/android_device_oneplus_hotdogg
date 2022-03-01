@@ -17,6 +17,9 @@ $(call inherit-product, vendor/oneplus/apps/hotdogg/config.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+PRODUCT_SYSTEM_NAME := OnePlus7TProNR
+PRODUCT_SYSTEM_DEVICE := OnePlus7TProNR
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_hotdogg
 PRODUCT_DEVICE := hotdogg
@@ -35,8 +38,8 @@ TARGET_SCREEN_WIDTH := 1440
 # Build info
 BUILD_FINGERPRINT := "OnePlus/OnePlus7TProNR/OnePlus7TProNR:11/RKQ1.201022.002/2108021431:user/release-keys"
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=OnePlus7TProNR \
-    PRODUCT_NAME=OnePlus7TProNR \
+    TARGET_DEVICE=OnePlus7TProNR \
+    TARGET_PRODUCT=OnePlus7TProNR \
     PRIVATE_BUILD_DESC="OnePlus7TProNR-user 11 RKQ1.201022.002 2108021431 release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
