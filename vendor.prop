@@ -1,2 +1,5 @@
+# Bluetooth
+bluetooth.device.default_name=OnePlus 7T Pro 5G
+
 # Fingerprint
 vendor.boot.fingerprintbstate=orange
