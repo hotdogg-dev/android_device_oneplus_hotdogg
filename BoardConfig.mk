@@ -7,7 +7,7 @@
 # Include the common OEM chipset BoardConfig.
 -include device/oneplus/sm8150-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/hotdog
+DEVICE_PATH := device/oneplus/hotdogg
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -63,4 +63,4 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
 # Include the proprietary files BoardConfig.
--include vendor/oneplus/hotdog/BoardConfigVendor.mk
+-include vendor/oneplus/hotdogg/BoardConfigVendor.mk
