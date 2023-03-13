@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from OnePlus 7T Pro (HD1911_11.F.20)
+## from OnePlus 7T Pro NR (HD1925_11_F.04)
 
 # ACDB
 odm/etc/acdbdata/Bluetooth_cal.acdb
@@ -24,7 +24,6 @@ odm/lib64/camera/com.qti.sensor.s5k3m5.so
 odm/lib64/camera/com.qti.sensormodule.ofilm_imx481.bin
 odm/lib64/camera/com.qti.sensormodule.ofilm_imx586.bin
 odm/lib64/camera/com.qti.sensormodule.ofilm_s5k3m5.bin
-odm/lib64/camera/com.qti.sensormodule.semco_2nd_lens_imx586.bin
 odm/lib64/camera/com.qti.sensormodule.semco_imx481.bin
 odm/lib64/camera/com.qti.sensormodule.semco_imx481_no_otp.bin
 odm/lib64/camera/com.qti.sensormodule.semco_imx586.bin
@@ -41,15 +40,26 @@ odm/lib64/camera/com.qti.tuned.semco_s5k3m5.bin
 odm/lib64/camera/com.qti.tuned.sunny_imx471.bin
 
 # Fingerprint
-odm/vendor/firmware/gfp9558.b00
-odm/vendor/firmware/gfp9558.b01
-odm/vendor/firmware/gfp9558.b02
-odm/vendor/firmware/gfp9558.b03
-odm/vendor/firmware/gfp9558.b04
-odm/vendor/firmware/gfp9558.b05
-odm/vendor/firmware/gfp9558.b06
-odm/vendor/firmware/gfp9558.b07
-odm/vendor/firmware/gfp9558.mdt
+odm/vendor/firmware/gfp9608.b00
+odm/vendor/firmware/gfp9608.b01
+odm/vendor/firmware/gfp9608.b02
+odm/vendor/firmware/gfp9608.b03
+odm/vendor/firmware/gfp9608.b04
+odm/vendor/firmware/gfp9608.b05
+odm/vendor/firmware/gfp9608.b06
+odm/vendor/firmware/gfp9608.b07
+odm/vendor/firmware/gfp9608.mdt
+
+# Qualcomm MDM Interface
+odm/bin/oemnvbkdaemon
+vendor/bin/ks
+vendor/bin/mdm_helper
+vendor/bin/mdm_helper_proxy
+vendor/bin/init.mdm.sh
+vendor/lib/libmdmdetect.so
+vendor/lib64/libmdmdetect.so
+vendor/lib64/liboemnvbk_img_helper.so
+vendor/lib64/libmdmimgload.so
 
 # Sensors
 odm/etc/sensor/sensor_config.json
@@ -766,7 +776,7 @@ vendor/firmware/t-jingle_RTP.bin
 vendor/firmware/wentai24k_rtp.bin
 
 # WiFi
-odm/etc/wifi/5bdwlan.b0c
-odm/etc/wifi/5bdwlan0.b0c
-odm/etc/wifi/5bdwlan1.b0c
+odm/etc/wifi/2bdwlan.t0a
+odm/etc/wifi/2bdwlan0.t0a
+odm/etc/wifi/2bdwlan1.t0a
 odm/etc/wifi/init.project.wifi.sh
