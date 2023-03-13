@@ -3619,8 +3619,6 @@
         <ctl name="CDC_IF TX7 MUX" value="DEC7" />
         <ctl name="ADC MUX7" value="AMIC" />
         <ctl name="AMIC MUX7" value="ADC1" />
-        <ctl name="DEC5 Volume" value="90" />
-        <ctl name="DEC6 Volume" value="90" />
         <ctl name="ADC3 Volume" value="6" />
         <ctl name="ADC4 Volume" value="6" />
         <ctl name="ADC1 Volume" value="6" />

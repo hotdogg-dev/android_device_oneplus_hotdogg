@@ -37,7 +37,7 @@
         <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK_MONO_1" acdb_id="151"/>
         <device name="SND_DEVICE_IN_CAPTURE_VI_FEEDBACK_MONO_2" acdb_id="152"/>
         <device name="SND_DEVICE_IN_UNPROCESSED_USB_HEADSET_MIC" acdb_id="133"/>
-        <device name="SND_DEVICE_IN_VOICE_RECOG_USB_HEADSET_MIC" acdb_id="44"/>
+        <device name="SND_DEVICE_IN_VOICE_RECOG_USB_HEADSET_MIC" acdb_id="133"/>
         <!-- yewenliang@MM.Audio, 2019/07/08, Change acdb-id -->
         <!-- <device name="SND_DEVICE_IN_UNPROCESSED_MIC" acdb_id="143"/> -->
         <device name="SND_DEVICE_IN_UNPROCESSED_STEREO_MIC" acdb_id="144"/>
@@ -97,7 +97,7 @@
         <device name="SND_DEVICE_IN_HANDSET_DMIC_AEC_NS" acdb_id="41"/>
         <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="113"/>
         <device name="SND_DEVICE_IN_SPEAKER_MIC_VOICE_RECORD_GAME" acdb_id="181"/>
-        <device name="SND_DEVICE_IN_CAMCORDER_SELFIE" acdb_id="112"/>
+        <device name="SND_DEVICE_IN_CAMCORDER_SELFIE" acdb_id="35"/>
         <device name="SND_DEVICE_IN_SVA_RE_MIC" acdb_id="143"/>
         <device name="SND_DEVICE_IN_HANDSET_MIC_KARAOKE" acdb_id="25"/>
         <device name="SND_DEVICE_IN_HEADPHONES_KARAOKE" acdb_id="114"/>
@@ -175,7 +175,7 @@
         <!-- In the below value string, first parameter indicates size -->
         <!-- followed by perf lock options                             -->
         <param key="perf_lock_opts" value="4, 0x40400000, 0x1, 0x40C00000, 0x1"/>
-        <param key="native_audio_mode" value="false"/>
+        <param key="native_audio_mode" value="src"/>
         <param key="input_mic_max_count" value="3"/>
         <param key="true_32_bit" value="true"/>
         <!-- In the below value string, the value indicates sidetone gain in dB -->
@@ -310,7 +310,6 @@
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_STEREO_GAME" interface="QUAT_MI2S_RX"/>
         <device name="SND_DEVICE_IN_CAMCORDER_SELFIE" interface="SLIMBUS_0_TX"/>
         <device name="SND_DEVICE_IN_SPEAKER_MIC_VOICE_RECORD_GAME" interface="SLIMBUS_0_TX"/>
-        <device name="SND_DEVICE_IN_SPEAKER_DMIC_FDX_AEC" interface="SLIMBUS_0_TX"/>
     </backend_names>
     <!-- below values are for ref purpose to OEM, doesn't contain actual hardware info on MTP -->
     <microphone_characteristics>
